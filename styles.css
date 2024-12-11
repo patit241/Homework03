@@ -1,0 +1,116 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:
+    url('./pexels-photo-2078266.webp');
+    
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+.navbar .home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.content {
+    margin-top: -140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight:normal;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: lighter;
+    margin: 0px 0px 0px 0px
+}
+
+.progress-bar {
+    width: 300px;
+    height: 10px;
+    background-color: #cfd8dc;
+
+    box-shadow: 1px 1px 10px black;
+}
+
+.progress-bar .progress {
+    height: 100%;
+    background-color: #98c4e8;
+    margin: 0px;
+}
+
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 12px;
+}
+
+.notify-btn {
+    background-color: #98c4e8;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 25px;
+    cursor: pointer;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons .icon {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #b0bec580;
+}
+hr{ 
+    margin-bottom: -10px;
+    width: 800px;
+    border:#e8e8e844 solid 1px
+}
+
+i{
+    font-size: 25px;
+    padding: 4px;
+    border: #cfd8dce1 solid;
+    border-radius: 100px;
+}
